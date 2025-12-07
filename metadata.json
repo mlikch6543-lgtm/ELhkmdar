@@ -1,0 +1,7 @@
+{
+  "name": "El-Hokmdar - الحكمدار",
+  "description": "منصة حجز قاعات الامتحانات مع نظام دفع انستا باي ولوحة تحكم ذكية",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
