@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { HashRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { LayoutDashboard, Calendar, ShieldCheck, Phone, CheckCircle, XCircle, Menu, X, LogOut, User as UserIcon, Plus, Edit2, Trash2, AlertTriangle, Save, Search, ScanLine, QrCode, UserCheck, Camera, StopCircle, RefreshCw, SwitchCamera, Eye, CreditCard, Info, Clock, MapPin, Users, Lock, EyeOff } from 'lucide-react';
