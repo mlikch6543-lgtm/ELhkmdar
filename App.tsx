@@ -1,11 +1,12 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { HashRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { LayoutDashboard, Calendar, ShieldCheck, Phone, CheckCircle, XCircle, Menu, X, LogOut, User as UserIcon, Plus, Edit2, Trash2, AlertTriangle, Save, Search, ScanLine, QrCode, UserCheck, Camera, StopCircle, RefreshCw, SwitchCamera, Eye, CreditCard, Info, Clock, MapPin, Users, Lock, EyeOff } from 'lucide-react';
-import { BookingWizard } from '@/components/BookingWizard';
-import { AuthModal } from '@/components/AuthModal';
-import { BookingDetails, Shift, BookingStatus, User, AdminData } from '@/types';
-import { generateAdminReport } from '@/services/geminiService';
-import { db, auth, firebaseConfig } from '@/services/firebase';
+import { BookingWizard } from './components/BookingWizard';
+import { AuthModal } from './components/AuthModal';
+import { BookingDetails, Shift, BookingStatus, User, AdminData } from './types';
+import { generateAdminReport } from './services/geminiService';
+import { db, auth, firebaseConfig } from './services/firebase';
 import firebase from "firebase/compat/app";
 
 // Add type definition for global html5-qrcode library
